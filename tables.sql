@@ -1,18 +1,15 @@
--- Eliminar todas las tablas
-DROP TABLE IF EXISTS 'Localitzacio';
-DROP TABLE IF EXISTS 'Ciutat';
-DROP TABLE IF EXISTS 'Hotel';
+DROP TABLE IF EXISTS Localitzacio;
+DROP TABLE IF EXISTS Ciutat;
+DROP TABLE IF EXISTS Hotel;
 
-
--- Añadimos las tablas
 CREATE TABLE IF NOT EXISTS Hotel (
-	Id INTEGER PRIMARY KEY AUTOINCREMENT,
-	Nom TEXT NOT NULL,
-	Estels INTEGER NOT NULL,
-	Adreça TEXT NOT NULL,
-	Telèfon INTEGER NOT NULL,
-	HabitacionSimple INTEGER NOT NULL,
-	HabitacionsDobles INTEGER NOT NULL,
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Nom TEXT NOT NULL,
+    Estels INTEGER NOT NULL,
+    Adreça TEXT NOT NULL,
+    Telèfon INTEGER NOT NULL,
+    HabitacionSimple INTEGER NOT NULL,
+    HabitacionsDobles INTEGER NOT NULL,
 	DataInaguracio TEXT NOT NULL
 );
 
@@ -22,11 +19,9 @@ CREATE TABLE IF NOT EXISTS Ciutat (
     Nom TEXT NOT NULL UNIQUE
 );
 
-CREATE TABLE Localitzacio (
+CREATE TABLE IF NOT EXISTS Localitzacio (
 	idCiutat INTEGER PRIMARY KEY,
-	idHotel INTEGER NOT NULL,
-	FOREIGN KEY ( IdCiutat ) REFERENCES Ciutat ( Id ), 
+    idHotel INTEGER NOT NULL,
+    FOREIGN KEY ( IdCiutat ) REFERENCES Ciutat ( Id ),
 	FOREIGN KEY ( IdHotel ) REFERENCES Hotel ( Id )
 );
-
-
