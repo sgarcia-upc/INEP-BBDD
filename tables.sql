@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS Hotel (
     Nom TEXT NOT NULL,
     Estels INTEGER NOT NULL,
     Adress TEXT NOT NULL,
-    Telèfon INTEGER NOT NULL,
+    Telefon INTEGER NOT NULL,
     HabitacionSimple INTEGER NOT NULL,
     HabitacionsDobles INTEGER NOT NULL,
 	DataInaguracio TEXT NOT NULL
