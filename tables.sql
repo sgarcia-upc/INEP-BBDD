@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS Hotel (
     Id INTEGER PRIMARY KEY AUTOINCREMENT,
     Nom TEXT NOT NULL,
     Estels INTEGER NOT NULL,
-    Adreça TEXT NOT NULL,
+    Adress TEXT NOT NULL,
     Telèfon INTEGER NOT NULL,
     HabitacionSimple INTEGER NOT NULL,
     HabitacionsDobles INTEGER NOT NULL,
