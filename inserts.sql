@@ -133,6 +133,7 @@ INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,6,715);
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,7,20);
 
 
+-- Hotel 1 -- Agencia 1
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (1, 1, 1);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (2, 1, 1);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (3, 1, 1);
@@ -142,6 +143,7 @@ INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (6, 1, 1);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (7, 1, 1);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (8, 1, 1);
 
+-- Hotel 1 -- Agencia 2
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (9, 1, 2);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (10, 1, 2);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (11, 1, 2);
@@ -150,6 +152,7 @@ INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (13, 1, 2);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (14, 1, 2);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (15, 1, 2);
 
+-- Hotel 2 -- Agencia 1
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (16, 2, 1);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (17, 2, 1);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (18, 2, 1);
@@ -158,6 +161,7 @@ INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (20, 2, 1);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (21, 2, 1);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (22, 2, 1);
 
+-- Hotel 3 -- Agencia 3
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (23, 3, 3);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (24, 3, 3);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (25, 3, 3);
@@ -165,4 +169,23 @@ INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (26, 3, 3);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (27, 3, 3);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (28, 3, 3);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (29, 3, 3);
+
+-- Hotel 4 -- Agencia 4
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (30, 4, 4);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (31, 4, 4);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (32, 4, 4);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (33, 4, 4);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (34, 4, 4);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (35, 4, 4);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (36, 4, 4);
+
+-- Hotel 5 -- Agencia 5
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (37, 5, 5);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (38, 5, 5);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (39, 5, 5);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (40, 5, 5);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (41, 5, 5);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (42, 5, 5);
+INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (43, 5, 5);
+
 
