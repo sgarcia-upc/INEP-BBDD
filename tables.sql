@@ -2,6 +2,7 @@ DROP TABLE IF EXISTS Localitzacio;
 DROP TABLE IF EXISTS Ciutat;
 DROP TABLE IF EXISTS Hotel;
 
+
 CREATE TABLE IF NOT EXISTS Hotel (
     Id INTEGER PRIMARY KEY AUTOINCREMENT,
     Nom TEXT NOT NULL,
@@ -12,6 +13,7 @@ CREATE TABLE IF NOT EXISTS Hotel (
     HDoble INTEGER NOT NULL,
 	DataInaguracio TEXT NOT NULL
 );
+
 
 CREATE TABLE IF NOT EXISTS DePlatja (
 	IdHotel INTEGER PRIMARY KEY,
@@ -34,9 +36,12 @@ CREATE TABLE IF NOT EXISTS Activitat (
 
 
 CREATE TABLE IF NOT EXISTS NivellQualitat (
-	IdHotel INTEGER PRIMARY KEY,
+	IdHotel INTEGER NOT NULL,
+    NomActivitat TEXT NOT NULL,
 	Valor INTEGER NOT NULL,
+    PRIMARY KEY ( IdHotel, NomActivitat )
 	FOREIGN KEY ( IdHotel ) REFERENCES Hotel ( Id )
+	FOREIGN KEY ( NomActivitat ) REFERENCES Activitat ( Nom )
 );
 
 
@@ -47,8 +52,8 @@ CREATE TABLE IF NOT EXISTS Ciutat (
 
 
 CREATE TABLE IF NOT EXISTS Localitzacio (
-	idCiutat INTEGER PRIMARY KEY,
-    idHotel INTEGER NOT NULL,
+	IdCiutat INTEGER PRIMARY KEY,
+    IdHotel INTEGER NOT NULL,
     FOREIGN KEY ( IdCiutat ) REFERENCES Ciutat ( Id ),
 	FOREIGN KEY ( IdHotel ) REFERENCES Hotel ( Id )
 );
@@ -153,18 +158,18 @@ CREATE TABLE IF NOT EXISTS Delegacio (
 );
 
 CREATE TABLE IF NOT EXISTS Obtencio (
-	idAgencia INTEGER NOT NULL,
-	idCategoria INTEGER NOT NULL,
-	PRIMARY KEY ( idAgencia, idCategoria ),
-	FOREIGN KEY ( IdAgencia ) REFERENCES Agencia ( id ),
-	FOREIGN KEY ( IdCategoria ) REFERENCES Categoria ( id )
+	IdAgencia INTEGER NOT NULL,
+	IdCategoria INTEGER NOT NULL,
+	PRIMARY KEY ( IdAgencia, IdCategoria ),
+	FOREIGN KEY ( IdAgencia ) REFERENCES Agencia ( Id ),
+	FOREIGN KEY ( IdCategoria ) REFERENCES Categoria ( Id )
 );
 
 CREATE TABLE IF NOT EXISTS Conformacio (
-	idDelegacio INTEGER PRIMARY KEY,
-	idAgencia INTEGER NOT NULL,
-	FOREIGN KEY ( idDelegacio ) REFERENCES Delegacio ( id )
-	FOREIGN KEY ( idAgencia ) REFERENCES Agencia ( id )
+	IdDelegacio INTEGER PRIMARY KEY,
+	IdAgencia INTEGER NOT NULL,
+	FOREIGN KEY ( IdDelegacio ) REFERENCES Delegacio ( Id )
+	FOREIGN KEY ( IdAgencia ) REFERENCES Agencia ( Id )
 );
 
 
