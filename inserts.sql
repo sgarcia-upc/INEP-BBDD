@@ -22,3 +22,9 @@ VALUES ("DREAMING CALIFORNIA",4,"Puerta del Sol 90",931237895,50,50,"05-05-1996"
 
 INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
 VALUES ("DREAMING COLORADO",4,"Puerta de la Luna 90",931000895,30,70,"22-08-2006");
+
+INSERT INTO Localitzacio(IdCiutat, IdHotel) VALUES (1, 1); 
+INSERT INTO Localitzacio(IdCiutat, IdHotel) VALUES (2, 2); 
+INSERT INTO Localitzacio(IdCiutat, IdHotel) VALUES (1, 3); 
+INSERT INTO Localitzacio(IdCiutat, IdHotel) VALUES (2, 4); 
+INSERT INTO Localitzacio(IdCiutat, IdHotel) VALUES (2, 5); 
