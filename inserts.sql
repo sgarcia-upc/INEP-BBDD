@@ -9,19 +9,22 @@ INSERT INTO Ciutat(Nom) VALUES ("Cornella de Llobregat");
 INSERT INTO Ciutat(Nom) VALUES ("El prat de Llobregat");
 
 INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
-VALUES ("ATENAS HOTEL",4,"Paseo Josefo 45",934568456,120,80,"05-05-1995");
+VALUES ("ATENAS HOTEL",1,"Paseo Josefo 45",934568456,120,80,"05-05-1995");
 
 INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
-VALUES ("ATENAS HOTEL",4,"Avenida las Flores 2",937536420,200,49,"05-05-1994");
+VALUES ("ATENAS HOTEL",3,"Avenida las Flores 2",937536420,200,49,"05-05-1994");
 
 INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
 VALUES ("Hilton",4,"Calle alcatran 34",934569637,30,10,"05-05-1993");
 
 INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
-VALUES ("DREAMING CALIFORNIA",4,"Puerta del Sol 90",931237895,50,50,"05-05-1996");
+VALUES ("DREAMING CALIFORNIA",2,"Puerta del Sol 90",931237895,50,50,"05-05-1996");
 
 INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
-VALUES ("DREAMING COLORADO",4,"Puerta de la Luna 90",931000895,30,70,"22-08-2006");
+VALUES ("DREAMING COLORADO",3,"Puerta de la Luna 90",931000895,30,70,"22-08-2006");
+
+INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
+VALUES ("Sergi's Hotel",5,"Puerta del Sol 32",931230895,30,70,"22-03-2000");
 
 INSERT INTO Localitzacio(IdCiutat, IdHotel) VALUES (1, 1); 
 INSERT INTO Localitzacio(IdCiutat, IdHotel) VALUES (2, 2); 
@@ -42,22 +45,21 @@ INSERT INTO Categoria(Nom) VALUES ("BTT");
 INSERT INTO Categoria(Nom) VALUES ("Naturaleza");
 INSERT INTO Categoria(Nom) VALUES ("Mar");
 
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (1, 1);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (1, 2);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (2, 1);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (2, 4);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 1);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 1);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 2);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 3);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 4);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 5);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (4, 3);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (5, 3);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (5, 4);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 3);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 4);
--- ~ INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 2);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (1, 1);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (1, 2);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (2, 1);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (2, 4);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 1);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 2);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 3);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 4);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 5);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (4, 3);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (5, 3);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (5, 4);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 3);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 4);
+INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 2);
 
 INSERT INTO Delegacio(Direccio, Fax) VALUES ("Carrer de la ginesta, 9","123456789");
 INSERT INTO Delegacio(Direccio, Fax) VALUES ("Avda. Massip Gross, 789","123456159");
@@ -218,3 +220,29 @@ INSERT INTO Empleat (CI, Nom, Cognom) VALUES (2827767,"Carles","Garrido");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (3894777,"Eugeni","Fernant");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (4555557,"Roger","Arman");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (5111117,"Ferran","Flors");
+
+INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (1, 1, 0);
+INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (2, 0, 0);
+INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (4, 1, 1);
+
+INSERT INTO DeMuntanya (idHotel, Piscina) VALUES (3, 1);
+INSERT INTO DeMuntanya (idHotel, Piscina) VALUES (5, 0);
+
+INSERT INTO Activitat (Nom) VALUES ("Kayak");
+INSERT INTO Activitat (Nom) VALUES ("Rafting");
+INSERT INTO Activitat (Nom) VALUES ("Senderismo");
+INSERT INTO Activitat (Nom) VALUES ("Noche");
+INSERT INTO Activitat (Nom) VALUES ("Gincana");
+INSERT INTO Activitat (Nom) VALUES ("Surf");
+
+INSERT INTO Director (Id, CI) VALUES (1, 1);
+INSERT INTO Director (Id, CI) VALUES (6, 2);
+INSERT INTO Director (Id, CI) VALUES (11, 3);
+INSERT INTO Director (Id, CI) VALUES (16, 4);
+INSERT INTO Director (Id, CI) VALUES (21, 5);
+INSERT INTO Director (Id, CI) VALUES (26, 6);
+
+INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de la Pau, 54");
+INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de deu");
+INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer Cerbantes");
+
