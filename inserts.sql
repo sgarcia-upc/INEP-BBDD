@@ -203,7 +203,7 @@ INSERT INTO Empleat (CI, Nom, Cognom) VALUES (7894667,"Anna","Gonzalez");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (1544567,"Francesc","Labián");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (2690000,"SúperPinxo","García");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (9799967,"Maria","Estévez");
-INSERT INTO Empleat (CI, Nom, Cognom) VALUES (11894567,"Albert","Johnson");
+INSERT INTO Empleat (CI, Nom, Cognom) VALUES (1189467,"Albert","Johnson");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (0094567,"Tatiana","Dionisio");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (7000567,"Teresa","Baldín");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (7800007,"Christian","Gonzalez");
@@ -213,6 +213,7 @@ INSERT INTO Empleat (CI, Nom, Cognom) VALUES (7877767,"Sara","Cid");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (8894777,"Cinta","Ávila");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (9555557,"Sergi","Carabantes");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (1011117,"Felicitación","Armiñano");
+
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (1174567,"Ricard","Batlle");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (2827767,"Carles","Garrido");
 INSERT INTO Empleat (CI, Nom, Cognom) VALUES (3894777,"Eugeni","Fernant");
@@ -256,17 +257,83 @@ INSERT INTO Pertany (IdHotel, IdCadena) VALUES (2, 1);
 INSERT INTO Pertany (IdHotel, IdCadena) VALUES (3, 1); 
 INSERT INTO Pertany (IdHotel, IdCadena) VALUES (4, 4); 
 INSERT INTO Pertany (IdHotel, IdCadena) VALUES (5, 5); 
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
-                                                       
+
+INSERT INTO Actual (CI, Id) VALUES (7894567, 1);
+INSERT INTO Actual (CI, Id) VALUES (6891235, 1);
+INSERT INTO Actual (CI, Id) VALUES (9800067, 1);
+INSERT INTO Actual (CI, Id) VALUES (7894560, 1);
+INSERT INTO Actual (CI, Id) VALUES (4494507, 1);
+INSERT INTO Actual (CI, Id) VALUES (9794456, 2);
+INSERT INTO Actual (CI, Id) VALUES (9694321, 2);
+INSERT INTO Actual (CI, Id) VALUES (3399877, 2);
+INSERT INTO Actual (CI, Id) VALUES (6978967, 2);
+INSERT INTO Actual (CI, Id) VALUES (9292227, 2);
+INSERT INTO Actual (CI, Id) VALUES (1793267, 3);
+INSERT INTO Actual (CI, Id) VALUES (7894667, 3);
+INSERT INTO Actual (CI, Id) VALUES (1544567, 3);
+INSERT INTO Actual (CI, Id) VALUES (2690000, 3);
+INSERT INTO Actual (CI, Id) VALUES (9799967, 3);
+INSERT INTO Actual (CI, Id) VALUES (1189467, 4);
+INSERT INTO Actual (CI, Id) VALUES (0094567, 4);
+INSERT INTO Actual (CI, Id) VALUES (7000567, 4);
+INSERT INTO Actual (CI, Id) VALUES (7800007, 4);
+INSERT INTO Actual (CI, Id) VALUES (7999567, 4);
+INSERT INTO Actual (CI, Id) VALUES (6774567, 5);
+INSERT INTO Actual (CI, Id) VALUES (7877767, 5);
+INSERT INTO Actual (CI, Id) VALUES (8894777, 5);
+INSERT INTO Actual (CI, Id) VALUES (9555557, 5);
+INSERT INTO Actual (CI, Id) VALUES (1011117, 5);
+INSERT INTO Actual (CI, Id) VALUES (1174567, 6);
+INSERT INTO Actual (CI, Id) VALUES (2827767, 6);
+INSERT INTO Actual (CI, Id) VALUES (3894777, 6);
+INSERT INTO Actual (CI, Id) VALUES (4555557, 6);
+INSERT INTO Actual (CI, Id) VALUES (5111117, 6);
+
+
+INSERT INTO Antiguitat (CI, Id) VALUES (7894567, 1);
+INSERT INTO Antiguitat (CI, Id) VALUES (6891235, 1);
+INSERT INTO Antiguitat (CI, Id) VALUES (9800067, 1);
+INSERT INTO Antiguitat (CI, Id) VALUES (7894560, 1);
+INSERT INTO Antiguitat (CI, Id) VALUES (4494507, 1);
+INSERT INTO Antiguitat (CI, Id) VALUES (9794456, 2);
+INSERT INTO Antiguitat (CI, Id) VALUES (9694321, 2);
+INSERT INTO Antiguitat (CI, Id) VALUES (3399877, 2);
+INSERT INTO Antiguitat (CI, Id) VALUES (6978967, 2);
+INSERT INTO Antiguitat (CI, Id) VALUES (9292227, 2);
+INSERT INTO Antiguitat (CI, Id) VALUES (1793267, 3);
+INSERT INTO Antiguitat (CI, Id) VALUES (7894667, 3);
+INSERT INTO Antiguitat (CI, Id) VALUES (1544567, 3);
+INSERT INTO Antiguitat (CI, Id) VALUES (2690000, 3);
+INSERT INTO Antiguitat (CI, Id) VALUES (9799967, 3);
+INSERT INTO Antiguitat (CI, Id) VALUES (1189467, 4);
+INSERT INTO Antiguitat (CI, Id) VALUES (0094567, 4);
+INSERT INTO Antiguitat (CI, Id) VALUES (7000567, 4);
+INSERT INTO Antiguitat (CI, Id) VALUES (7800007, 4);
+INSERT INTO Antiguitat (CI, Id) VALUES (7999567, 4);
+INSERT INTO Antiguitat (CI, Id) VALUES (6774567, 5);
+INSERT INTO Antiguitat (CI, Id) VALUES (7877767, 5);
+INSERT INTO Antiguitat (CI, Id) VALUES (8894777, 5);
+INSERT INTO Antiguitat (CI, Id) VALUES (9555557, 5);
+INSERT INTO Antiguitat (CI, Id) VALUES (1011117, 5);
+INSERT INTO Antiguitat (CI, Id) VALUES (1174567, 6);
+INSERT INTO Antiguitat (CI, Id) VALUES (2827767, 6);
+INSERT INTO Antiguitat (CI, Id) VALUES (3894777, 6);
+INSERT INTO Antiguitat (CI, Id) VALUES (4555557, 6);
+INSERT INTO Antiguitat (CI, Id) VALUES (5111117, 6);
+
+INSERT INTO Antiguitat (CI, Id) VALUES (3894777, 1);
+INSERT INTO Antiguitat (CI, Id) VALUES (4555557, 1);
+INSERT INTO Antiguitat (CI, Id) VALUES (3894777, 2);
+INSERT INTO Antiguitat (CI, Id) VALUES (2827767, 3);
+INSERT INTO Antiguitat (CI, Id) VALUES (1174567, 1);
+INSERT INTO Antiguitat (CI, Id) VALUES (1011117, 2);
+INSERT INTO Antiguitat (CI, Id) VALUES (9555557, 4);
+
+INSERT INTO Antiguitat (CI, Id) VALUES (7894567, 2);
+INSERT INTO Antiguitat (CI, Id) VALUES (6891235, 5);
+
+INSERT INTO Antiguitat (CI, Id) VALUES (9800067, 6);
+INSERT INTO Antiguitat (CI, Id) VALUES (7894560, 4);
+INSERT INTO Antiguitat (CI, Id) VALUES (4494507, 4);
+INSERT INTO Antiguitat (CI, Id) VALUES (9794456, 3);
+INSERT INTO Antiguitat (CI, Id) VALUES (3399877, 6);
