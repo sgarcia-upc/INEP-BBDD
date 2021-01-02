@@ -45,21 +45,21 @@ INSERT INTO Categoria(Nom) VALUES ("BTT");
 INSERT INTO Categoria(Nom) VALUES ("Naturaleza");
 INSERT INTO Categoria(Nom) VALUES ("Mar");
 
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (1, 1);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (1, 2);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (2, 1);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (2, 4);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 1);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 2);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 3);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 4);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (3, 5);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (4, 3);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (5, 3);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (5, 4);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 3);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 4);
-INSERT INTO Obtencio(IdAgencia, IdCategoria ) VALUES (6, 2);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (1, 1);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (1, 2);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (2, 1);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (2, 4);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (3, 1);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (3, 2);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (3, 3);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (3, 4);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (3, 5);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (4, 3);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (5, 3);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (5, 4);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (6, 3);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (6, 4);
+INSERT INTO Obtencio(IdAgencia, IdCategoria) VALUES (6, 2);
 
 INSERT INTO Delegacio(Direccio, Fax) VALUES ("Carrer de la ginesta, 9","123456789");
 INSERT INTO Delegacio(Direccio, Fax) VALUES ("Avda. Massip Gross, 789","123456159");
@@ -80,14 +80,13 @@ INSERT INTO Conformacio(IdDelegacio, IdAgencia) VALUES (7, 6);
 INSERT INTO Conformacio(IdDelegacio, IdAgencia) VALUES (8, 6);
 
 INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (1, 1);
+INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (1, 2);
 INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (2, 2);
+INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (2, 1);
 INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (3, 3);
 INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (4, 4);
 INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (5, 5);
 INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (6, 6);
-INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (1, 2);
-INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (3, 2);
-INSERT INTO AssignacioTurista (IdHotel, IdAgencia) VALUES (4, 2);
 
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,3,55);
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,1,120);
@@ -96,7 +95,6 @@ INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,4,555);
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,5,790);
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,6,679);
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,7,123);
-
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2019,8,55);
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,3,5);
 INSERT INTO Turista (Year, Mes, Valor) VALUES (2020,1,449);
@@ -233,7 +231,14 @@ INSERT INTO Activitat (Nom) VALUES ("Rafting");
 INSERT INTO Activitat (Nom) VALUES ("Senderismo");
 INSERT INTO Activitat (Nom) VALUES ("Noche");
 INSERT INTO Activitat (Nom) VALUES ("Gincana");
-INSERT INTO Activitat (Nom) VALUES ("Surf");
+
+INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (3, 1, 5)
+INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (3, 4, 3)
+INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (3, 5, 4)
+INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (5, 1, 5)
+INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (5, 2, 3)
+INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (5, 3, 4)
+INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (5, 4, 2)
 
 INSERT INTO Director (Id, CI) VALUES (1, 1);
 INSERT INTO Director (Id, CI) VALUES (6, 2);
@@ -245,4 +250,5 @@ INSERT INTO Director (Id, CI) VALUES (26, 6);
 INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de la Pau, 54");
 INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de deu");
 INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer Cerbantes");
+
 
