@@ -84,9 +84,8 @@ CREATE TABLE IF NOT EXISTS CadenaHotelera (
 
 
 CREATE TABLE IF NOT EXISTS Pertany (
-    IdHotel INTEGER NOT NULL,
+    IdHotel INTEGER PRIMARY KEY,
     IdCadena INTEGER NOT NULL,
-    PRIMARY KEY( IdHotel, IdCadena ),
     FOREIGN KEY ( IdHotel ) REFERENCES Hotel ( Id ),
     FOREIGN KEY ( IdCadena ) REFERENCES CadenaHotelera ( Id )
 );
