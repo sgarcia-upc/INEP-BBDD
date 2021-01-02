@@ -232,23 +232,41 @@ INSERT INTO Activitat (Nom) VALUES ("Senderismo");
 INSERT INTO Activitat (Nom) VALUES ("Noche");
 INSERT INTO Activitat (Nom) VALUES ("Gincana");
 
-INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (3, 1, 5)
-INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (3, 4, 3)
-INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (3, 5, 4)
-INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (5, 1, 5)
-INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (5, 2, 3)
-INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (5, 3, 4)
-INSERT INTO NivellQualitat (IdHotel, IdActivitat, Valor) VALUES (5, 4, 2)
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Kayak", 5);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Noche", 3);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Gincada", 4);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Kayak", 5);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Rafting", 3);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Senderismo", 4);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Gincana", 2);
 
-INSERT INTO Director (Id, CI) VALUES (1, 1);
-INSERT INTO Director (Id, CI) VALUES (6, 2);
-INSERT INTO Director (Id, CI) VALUES (11, 3);
-INSERT INTO Director (Id, CI) VALUES (16, 4);
-INSERT INTO Director (Id, CI) VALUES (21, 5);
-INSERT INTO Director (Id, CI) VALUES (26, 6);
+INSERT INTO Director (Id, CI) VALUES (7894567, 1);
+INSERT INTO Director (Id, CI) VALUES (9794456, 2);
+INSERT INTO Director (Id, CI) VALUES (1793267, 3);
+INSERT INTO Director (Id, CI) VALUES (1189467, 4);
+INSERT INTO Director (Id, CI) VALUES (6774567, 5);
+INSERT INTO Director (Id, CI) VALUES (1174567, 6);
 
 INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de la Pau, 54");
 INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de deu");
 INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer Cerbantes");
 
-
+INSERT INTO Pertany (IdHotel, IdCadena) VALUES (1, 1); 
+INSERT INTO Pertany (IdHotel, IdCadena) VALUES (2, 1); 
+INSERT INTO Pertany (IdHotel, IdCadena) VALUES (3, 1); 
+INSERT INTO Pertany (IdHotel, IdCadena) VALUES (4, 4); 
+INSERT INTO Pertany (IdHotel, IdCadena) VALUES (5, 5); 
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       
+                                                       

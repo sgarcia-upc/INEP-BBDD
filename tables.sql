@@ -196,3 +196,11 @@ CREATE TABLE IF NOT EXISTS Conformacio (
     FOREIGN KEY ( IdAgencia ) REFERENCES Agencia ( Id )
 );
 
+
+CREATE TABLE IF NOT EXISTS Historial (
+    CI INTEGER NOT NULL,
+    IdCadena INTEGER NOT NULL,
+    PRIMARY KEY ( CI , IdCadena ),
+    FOREIGN KEY ( CI ) REFERENCES Empleat ( CI ),
+    FOREIGN KEY ( IdCadena ) REFERENCES CadenaHotelera ( Id )
+);
