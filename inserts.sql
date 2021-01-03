@@ -21,7 +21,7 @@ INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio)
 VALUES ("DREAMING CALIFORNIA",2,"Puerta del Sol 90",931237895,50,50,"05-05-1996");
 
 INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
-VALUES ("DREAMING COLORADO",3,"Puerta de la Luna 90",931000895,30,70,"22-08-2006");
+VALUES ("DREAMING COLORADO",5,"Puerta de la Luna 90",931000895,30,70,"22-08-2006");
 
 INSERT INTO Hotel(Nom,Estels,Adress,Telefon,HSimple,HDoble,DataInaguracio) 
 VALUES ("Sergi's Hotel",5,"Puerta del Sol 32",931230895,30,70,"22-03-2000");
