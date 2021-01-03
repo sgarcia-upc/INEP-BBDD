@@ -223,6 +223,7 @@ INSERT INTO Empleat (CI, Nom, Cognom) VALUES (5111117,"Ferran","Flors");
 INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (1, 1, 0);
 INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (2, 0, 0);
 INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (4, 1, 1);
+INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (6, 1, 1);
 
 INSERT INTO DeMuntanya (idHotel, Piscina) VALUES (3, 1);
 INSERT INTO DeMuntanya (idHotel, Piscina) VALUES (5, 0);
@@ -241,12 +242,12 @@ INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Rafting", 
 INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Senderismo", 4);
 INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Gincana", 2);
 
-INSERT INTO Director (Id, CI) VALUES (7894567, 1);
-INSERT INTO Director (Id, CI) VALUES (9794456, 2);
-INSERT INTO Director (Id, CI) VALUES (1793267, 3);
-INSERT INTO Director (Id, CI) VALUES (1189467, 4);
-INSERT INTO Director (Id, CI) VALUES (6774567, 5);
-INSERT INTO Director (Id, CI) VALUES (1174567, 6);
+INSERT INTO Director (CI, Id) VALUES (7894567, 1);
+INSERT INTO Director (CI, Id) VALUES (9794456, 2);
+INSERT INTO Director (CI, Id) VALUES (1793267, 3);
+INSERT INTO Director (CI, Id) VALUES (1189467, 4);
+INSERT INTO Director (CI, Id) VALUES (6774567, 5);
+INSERT INTO Director (CI, Id) VALUES (1174567, 6);
 
 INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de la Pau, 54");
 INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de deu");

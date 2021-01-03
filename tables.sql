@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS Historial;
 DROP TABLE IF EXISTS Conformacio;
 DROP TABLE IF EXISTS Obtencio;
 DROP TABLE IF EXISTS Delegacio;
@@ -203,3 +204,4 @@ CREATE TABLE IF NOT EXISTS Historial (
     FOREIGN KEY ( CI ) REFERENCES Empleat ( CI ),
     FOREIGN KEY ( IdCadena ) REFERENCES CadenaHotelera ( Id )
 );
+
