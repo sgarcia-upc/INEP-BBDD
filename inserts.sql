@@ -187,68 +187,37 @@ INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (40, 5, 5);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (41, 5, 5);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (42, 5, 5);
 INSERT INTO Assignacio (IdTurista, IdHotel, IdAgencia) VALUES (43, 5, 5);
-
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7894567, 6851901043, "Plaza Lorem ipsum dolor, 176A 7ºF   ", "Anna","Lopez");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (6891235, 7513768888, "Pasadizo Lorem ipsum dolor sit, 244B    ", "Oscar","Llor");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9800067, 6357327732, "Carretera Lorem ipsum dolor, 7 1ºG  ", "Maria","Calvo");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7894560, 6103204042, "Cañada Lorem, 176A                  ", "Eresun","Pesao");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (4494507, 7584360051, "C. Comercial Lorem ipsum, 36A 12ºB  ", "Pol","Ramirez");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9794456, 8981989754, "Carretera Lorem ipsum dolor, 159 3ºH", "Sergio","Garcia");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9694321, 7461322637, "Pasadizo Lorem ipsum dolor sit, 31 10ºA", "Rubén","García");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (3399877, 7780099694, "Glorieta Lorem ipsum dolor, 266A 16ºB", "Axel","Romero");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (6978967, 7792251904, "Travesía Lorem ipsum dolor, 108A 8ºF", "Enric","Romero");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9292227, 7641490692, "Paseo Lorem ipsum, 68A 8ºC          ", "Andrea","Fernandez");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1793267, 8847908240, "Urbanización Lorem, 180B 9ºC    ", "Kevin","Ramirez");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7894667, 7494716816, "Calle Lorem ipsum dolor sit, 115 3ºC", "Anna","Gonzalez");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1544567, 6430144306, "Vía Lorem, 103B 17ºD            ", "Francesc","Labián");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (2690000, 6199333214, "Carrer Lorem ipsum, 263A 6ºC        ", "SúperPinxo","García");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9799967, 6463002272, "Acceso Lorem ipsum, 196B                ", "Maria","Estévez");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1189467, 7619734040, "Carrera Lorem, 280A 6ºA             ", "Albert","Johnson");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (0094567, 8997392428, "Camino Lorem ipsum dolor sit, 293A      ", "Tatiana","Dionisio");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7000567, 8800420526, "Paseo Lorem ipsum, 95                   ", "Teresa","Baldín");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7800007, 6668679853, "Avenida Lorem, 64A 4ºB              ", "Christian","Gonzalez");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7999567, 6101307540, "Carretera Lorem, 232A                   ", "Claudia","Linger");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (6774567, 8405909597, "Pasaje Lorem, 31A 9ºA               ", "Elan","García");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7877767, 7510512061, "Carretera Lorem ipsum dolor, 68B 3ºA", "Sara","Cid");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (8894777, 6267295518, "Pasadizo Lorem ipsum dolor, 161 12ºF", "Cinta","Ávila");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9555557, 867643554 , "Travesía Lorem ipsum dolor sit, 266 ", "Sergi","Carabantes");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1011117, 8989013770, "Travesía Lorem ipsum dolor sit, 28B 16ºA", "Felicitación","Armiñano");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1174567, 6696643474, "Rambla Lorem, 85B 18ºG              ", "Ricard","Batlle");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (2827767, 8120761708, "Cuesta Lorem, 175B                      ", "Carles","Garrido");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (3894777, 7712529887, "Urbanización Lorem ipsum, 158       ", "Eugeni","Fernant");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (4555557, 704148029 , "Alameda Lorem ipsum dolor, 82B 8ºG  ", "Roger","Arman");
-INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (5111117, 6716937748, "Plaza Lorem ipsum dolor sit, 224        ", "Ferran","Flors");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                                                        
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7894567, 685190104, "Plaza Lorem ipsum dolor, 176A 7ºF","Anna","Lopez");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (6891235, 751376888, "Pasadizo Lorem ipsum dolor sit, 244B","Oscar","Llor");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9800067, 635732773, "Carretera Lorem ipsum dolor, 7 1ºG","Maria","Calvo");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7894560, 610320404, "Cañada Lorem, 176A","Eresun","Pesao");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (4494507, 758436005, "C. Comercial Lorem ipsum, 36A 12ºB","Pol","Ramirez");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9794456, 898198975, "Carretera Lorem ipsum dolor, 159 3ºH","Sergio","Garcia");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9694321, 746132263, "Pasadizo Lorem ipsum dolor sit, 31 10ºA","Rubén","García");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (3399877, 778009969, "Glorieta Lorem ipsum dolor, 266A 16ºB","Axel","Romero");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (6978967, 779225190, "Travesía Lorem ipsum dolor, 108A 8ºF","Enric","Romero");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9292227, 764149069, "Paseo Lorem ipsum, 68A 8ºC","Andrea","Fernandez");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1793267, 884790824, "Urbanización Lorem, 180B 9ºC","Kevin","Ramirez");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7894667, 749471681, "Calle Lorem ipsum dolor sit, 115 3ºC","Anna","Gonzalez");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1544567, 643014430, "Vía Lorem, 103B 17ºD","Francesc","Labián");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (2690000, 619933321, "Carrer Lorem ipsum, 263A 6ºC","SúperPinxo","García");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9799967, 646300227, "Acceso Lorem ipsum, 196B","Maria","Estévez");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1189467, 761973404, "Carrera Lorem, 280A 6ºA","Albert","Johnson");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (0094567, 899739242, "Camino Lorem ipsum dolor sit, 293A","Tatiana","Dionisio");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7000567, 880042052, "Paseo Lorem ipsum, 95","Teresa","Baldín");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7800007, 666867985, "Avenida Lorem, 64A 4ºB","Christian","Gonzalez");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7999567, 610130754, "Carretera Lorem, 232A","Claudia","Linger");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (6774567, 840590959, "Pasaje Lorem, 31A 9ºA","Elan","García");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (7877767, 751051206, "Carretera Lorem ipsum dolor, 68B 3ºA","Sara","Cid");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (8894777, 626729551, "Pasadizo Lorem ipsum dolor, 161 12ºF","Cinta","Ávila");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (9555557, 867643554, "Travesía Lorem ipsum dolor sit, 266","Sergi","Carabantes");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1011117, 898901377, "Travesía Lorem ipsum dolor sit, 28B 16ºA","Felicitación","Armiñano");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (1174567, 669664347, "Rambla Lorem, 85B 18ºG","Ricard","Batlle");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (2827767, 812076170, "Cuesta Lorem, 175B","Carles","Garrido");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (3894777, 771252988, "Urbanización Lorem ipsum, 158","Eugeni","Fernant");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (4555557, 704148029, "Alameda Lorem ipsum dolor, 82B 8ºG","Roger","Arman");
+INSERT INTO Empleat (CI, Telefon, Adress, Nom, Cognom) VALUES (5111117, 671693774, "Plaza Lorem ipsum dolor sit, 224","Ferran","Flors");
 
 INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (1, 1, 0);
 INSERT INTO DePlatja (idHotel, PlatjaPrivada, ServeiEmbarcacions) VALUES (2, 0, 0);
@@ -264,13 +233,13 @@ INSERT INTO Activitat (Nom) VALUES ("Senderismo");
 INSERT INTO Activitat (Nom) VALUES ("Noche");
 INSERT INTO Activitat (Nom) VALUES ("Gincana");
 
-INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Kayak", 5);
-INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Noche", 3);
-INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Gimcana", 4);
-INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Kayak", 5);
-INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Rafting", 3);
-INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Senderismo", 4);
-INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Gincana", 2);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3,"Kayak", 5);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3,"Noche", 3);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3,"Gimcana", 4);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5,"Kayak", 5);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5,"Rafting", 3);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5,"Senderismo", 4);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5,"Gincana", 2);
 
 INSERT INTO Director (CI, Id) VALUES (7894567, 1);
 INSERT INTO Director (CI, Id) VALUES (9794456, 2);
