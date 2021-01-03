@@ -236,7 +236,7 @@ INSERT INTO Activitat (Nom) VALUES ("Gincana");
 
 INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Kayak", 5);
 INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Noche", 3);
-INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Gincada", 4);
+INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (3, "Gimcana", 4);
 INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Kayak", 5);
 INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Rafting", 3);
 INSERT INTO NivellQualitat (IdHotel, NomActivitat, Valor) VALUES (5, "Senderismo", 4);
