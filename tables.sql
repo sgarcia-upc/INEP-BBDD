@@ -95,7 +95,9 @@ CREATE TABLE IF NOT EXISTS Pertany (
 CREATE TABLE IF NOT EXISTS Empleat ( 
     CI INTEGER PRIMARY KEY,
     Nom TEXT NOT NULL,
-    Cognom TEXT NOT NULL
+    Cognom TEXT NOT NULL,
+    Telefon TEXT NOT NULL,
+    Adress TEXT NOT NULL
 );
 
 
