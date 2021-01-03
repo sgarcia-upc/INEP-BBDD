@@ -248,9 +248,9 @@ INSERT INTO Director (CI, Id) VALUES (1189467, 4);
 INSERT INTO Director (CI, Id) VALUES (6774567, 5);
 INSERT INTO Director (CI, Id) VALUES (1174567, 6);
 
-INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de la Pau, 54");
-INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer de deu");
-INSERT INTO CadenaHotelera (AdressFiscal) VALUES ("Carrer Cerbantes");
+INSERT INTO CadenaHotelera (Nom, AdressFiscal) VALUES ("AC", "Carrer de la Pau, 54");
+INSERT INTO CadenaHotelera (Nom, AdressFiscal) VALUES ("NH", "Carrer de deu");
+INSERT INTO CadenaHotelera (Nom, AdressFiscal) VALUES ("Barceló", "Carrer Cerbantes");
 
 INSERT INTO Pertany (IdHotel, IdCadena) VALUES (1, 1); 
 INSERT INTO Pertany (IdHotel, IdCadena) VALUES (2, 1); 
